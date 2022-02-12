@@ -1,0 +1,58 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+main {
+	width: 960px;
+	height: 600px;
+	margin: 10em auto;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sky {
+	width: 100%;
+	height: 50%;
+}
+
+.sky-layer1 {
+	width: 100%;
+	height: 20%;
+	background-color: hsla(210, 100%, 86%, 1);
+}
+.sky-layer2 {
+	width: 100%;
+	height: 20%;
+	background-color: hsla(210, 100%, 88%, 1);
+}
+.sky-layer3 {
+	width: 100%;
+	height: 20%;
+	background-color: hsla(210, 100%, 90%, 1);
+}
+.sky-layer4 {
+	width: 100%;
+	height: 20%;
+	background-color: hsla(210, 100%, 93%, 1);
+}
+.sky-layer5 {
+	width: 100%;
+	height: 20%;
+	background-color: hsla(210, 100%, 95%, 1);
+}
+
+.ocean {
+	width: 100%;
+	height: 50%;
+	background-color: dodgerblue;
+	text-align: center;
+	font-size: 70px;
+	color: rgba(0,0,0,0.45);
+	text-shadow: 1px 1px rgba(255,255,255,0.3);
+}
+
+.float-up {
+	position: relative;
+	bottom: 0.4em;
+}
